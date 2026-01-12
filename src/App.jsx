@@ -11,6 +11,7 @@ import Six from "./Six";
 import Seven from "./Seven";
 import Eight from "./Eight";
 import Nine from "./Nine";
+import Ten from "./Ten";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,7 @@ function App() {
       <Seven />
       <Eight />
       <Nine />
+      <Ten />
     </>
   );
 }
