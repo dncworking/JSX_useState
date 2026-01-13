@@ -13,6 +13,7 @@ import Eight from "./Eight";
 import Nine from "./Nine";
 import Ten from "./Ten";
 import Eleven from "./Eleven";
+import Thirteen from "./Thirteen";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -30,6 +31,7 @@ function App() {
       <Nine />
       <Ten />
       <Eleven />
+      <Thirteen />
     </>
   );
 }
